@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.0.0 at 2022-06-29T19:08:04.987564+02:00
+# Generated with JReleaser 1.0.0 at 2022-06-29T19:09:36.435791+02:00
 class Conductor < Formula
   desc "Conductor CLI"
   homepage "https://conductor.mobile.dev"
