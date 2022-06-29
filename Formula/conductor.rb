@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.0.0 at 2022-06-29T17:37:13.600611+02:00
+# Generated with JReleaser 1.0.0 at 2022-06-29T18:21:21.786615+02:00
 class Conductor < Formula
   desc "Conductor CLI"
   homepage "https://conductor.mobile.dev"
@@ -7,6 +7,7 @@ class Conductor < Formula
   sha256 "46af6a5dea1de15710514b99e092f7b5ba5c6bc4c9c7c58bfafc7f1834d4713a"
   license "Apache-2.0"
 
+  depends_on "openjdk@11"
   depends_on "openjdk@8"
 
   def install
