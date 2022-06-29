@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.0.0 at 2022-06-29T18:21:21.786615+02:00
+# Generated with JReleaser 1.0.0 at 2022-06-29T18:28:11.526267+02:00
 class Conductor < Formula
   desc "Conductor CLI"
   homepage "https://conductor.mobile.dev"
@@ -8,7 +8,6 @@ class Conductor < Formula
   license "Apache-2.0"
 
   depends_on "openjdk@11"
-  depends_on "openjdk@8"
 
   def install
     libexec.install Dir["*"]
