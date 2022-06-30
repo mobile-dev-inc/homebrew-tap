@@ -1,10 +1,10 @@
-# Generated with JReleaser 1.0.0 at 2022-06-30T11:45:38.688Z
+# Generated with JReleaser 1.0.0 at 2022-06-30T12:58:29.521Z
 class Conductor < Formula
   desc "Conductor CLI"
   homepage "https://conductor.mobile.dev"
-  url "https://github.com/mobile-dev-inc/conductor/releases/download/cli-0.0.2/conductor-0.0.2.zip"
-  version "0.0.2"
-  sha256 "1817580adeddb09ee3bef71c5e019093433d44cc1b5c2d760a90a59b92b86b35"
+  url "https://github.com/mobile-dev-inc/conductor/releases/download/cli-1.0.0/conductor-1.0.0.zip"
+  version "1.0.0"
+  sha256 "9e39997f81cb27f2d907a89b4d5a61c5d98cc68543ddc6d313bf8f22928a8f90"
   license "Apache-2.0"
 
   depends_on "openjdk@11"
@@ -16,6 +16,6 @@ class Conductor < Formula
 
   test do
     output = shell_output("#{bin}/conductor --version")
-    assert_match "0.0.2", output
+    assert_match "1.0.0", output
   end
 end
