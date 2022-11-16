@@ -1,8 +1,6 @@
 class MaestroHead < Formula
   desc "Maestro CLI"
   homepage "https://maestro.mobile.dev"
-  url "https://github.com/mobile-dev-inc/maestro/"
-  version "head"
   license "Apache-2.0"
 
   conflicts_with "mobile-dev-inc/tap/maestro", because: "This is the head version of maestro"
