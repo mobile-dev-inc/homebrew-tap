@@ -1,10 +1,10 @@
-# Generated with JReleaser 1.0.0 at 2022-12-02T14:13:05.899Z
+# Generated with JReleaser 1.0.0 at 2022-12-02T20:09:39.376Z
 class Maestro < Formula
   desc "Maestro CLI"
   homepage "https://maestro.mobile.dev"
-  url "https://github.com/mobile-dev-inc/maestro/releases/download/cli-1.16.3/maestro.zip"
-  version "1.16.3"
-  sha256 "8f4508f4ad5feca42ed07ea2b9694b7498e78bd3438ee4e7fcb148678d36de85"
+  url "https://github.com/mobile-dev-inc/maestro/releases/download/cli-1.16.4/maestro.zip"
+  version "1.16.4"
+  sha256 "e51885a302a390935bafda01b1b164d0232bf2783d6428a34e9045d672c12777"
   license "Apache-2.0"
 
 
@@ -15,6 +15,6 @@ class Maestro < Formula
 
   test do
     output = shell_output("#{bin}/maestro --version")
-    assert_match "1.16.3", output
+    assert_match "1.16.4", output
   end
 end
