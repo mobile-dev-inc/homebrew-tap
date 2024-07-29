@@ -1,13 +1,13 @@
-# Generated with JReleaser 1.0.0 at 2024-07-29T10:46:13.664Z
+# Generated with JReleaser 1.0.0 at 2024-07-29T11:27:33.044Z
 class Maestro < Formula
   desc "Maestro CLI"
   homepage "https://maestro.mobile.dev"
-  url "https://github.com/mobile-dev-inc/maestro/releases/download/cli-1.37.0/maestro.zip"
-  version "1.37.0"
-  sha256 "487c8ad9dce412b78a8cf0793711a111abb05f5992e299dd86c5f8ab35344b7a"
+  url "https://github.com/mobile-dev-inc/maestro/releases/download/cli-1.37.1/maestro.zip"
+  version "1.37.1"
+  sha256 "9bb52606892ce5cbf4a8e05dec87c91b7efa4da7c350a5b1354877118a85aac7"
   license "Apache-2.0"
 
-  depends_on "openjdk"
+  depends_on "openjdk@8"
 
   def install
     libexec.install Dir["*"]
@@ -16,6 +16,6 @@ class Maestro < Formula
 
   test do
     output = shell_output("#{bin}/maestro --version")
-    assert_match "1.37.0", output
+    assert_match "1.37.1", output
   end
 end
