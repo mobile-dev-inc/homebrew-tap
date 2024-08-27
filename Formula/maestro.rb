@@ -1,7 +1,7 @@
 # Generated with JReleaser 1.13.1 at 2024-08-15T02:26:11.611Z
 
 class Maestro < Formula
-  desc "The simplest and most effective mobile UI testing framework."
+  desc "The easiest way to automate UI testing for your mobile app"
   homepage "https://maestro.mobile.dev"
   url "https://github.com/mobile-dev-inc/maestro/releases/download/cli-1.37.9/maestro.zip"
   version "1.37.9"

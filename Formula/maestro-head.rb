@@ -1,10 +1,10 @@
 class MaestroHead < Formula
-  desc "The simplest and most effective mobile UI testing framework."
+  desc "Maestro CLI"
   homepage "https://maestro.mobile.dev"
   license "Apache-2.0"
 
   conflicts_with "mobile-dev-inc/tap/maestro", because: "This is the head version of maestro"
-  depends_on "openjdk"
+  depends_on "openjdk@11"
 
   head do
     url "https://github.com/mobile-dev-inc/maestro.git", branch: "main"
