@@ -3,7 +3,7 @@
 class MaestroAT139Dev1 < Formula
   desc "The simplest and most effective mobile UI testing framework."
   homepage "https://maestro.mobile.dev"
-  url "https://github.com/mobile-dev-inc/maestro/releases/download/cli-v1.39.0-dev.1/maestro.zip"
+  url "https://github.com/mobile-dev-inc/maestro/releases/download/cli-1.39.0-dev.1/maestro.zip"
   version "1.38.1"
   license "Apache-2.0"
 
