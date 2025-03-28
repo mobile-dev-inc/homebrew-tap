@@ -3,8 +3,8 @@
 class MaestroAT140Dev1 < Formula
   desc "The simplest and most effective mobile UI testing framework."
   homepage "https://maestro.mobile.dev"
-  url "https://github.com/mobile-dev-inc/Maestro/releases/download/cli-1.40.1-dev.1/maestro.zip"
-  version "1.40.1"
+  url "https://github.com/mobile-dev-inc/Maestro/releases/download/cli-1.41.0-dev.1/maestro.zip"
+  version "1.41.0"
   license "Apache-2.0"
 
   depends_on "openjdk"
@@ -16,6 +16,6 @@ class MaestroAT140Dev1 < Formula
 
   test do
     output = shell_output("#{bin}/maestro --version")
-    assert_match "1.40.1", output
+    assert_match "1.41.0", output
   end
 end
