@@ -1,6 +1,6 @@
 # Generated with JReleaser 1.13.1 at 2024-08-15T02:26:11.611Z
 # Then manually updated by Bartek Pacia
-class MaestroAT140Dev1 < Formula
+class MaestroAT20Dev1 < Formula
   desc "The simplest and most effective mobile UI testing framework."
   homepage "https://maestro.mobile.dev"
   url "https://github.com/mobile-dev-inc/Maestro/releases/download/cli-2.0.0-dev.1/maestro.zip"
