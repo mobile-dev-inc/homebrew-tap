@@ -8,7 +8,7 @@ class Maestro < Formula
   sha256 "ebad91432b618f9b6b7c04322cb78950d613257e7473ecc2d7e3abf59c1cad6d"
   license "Apache-2.0"
 
-  depends_on "openjdk"
+  depends_on "openjdk" => "17+"
 
   def install
     libexec.install Dir["*"]
