@@ -6,10 +6,11 @@ class Xcodes < Formula
   sha256 "aa4f02703703df06446d8efcda4e7dcd89cc3c05bf577ab1734b24e682f00c5c"
   license "MIT"
 
-  depends_on xcode: ["13.4", :build]
+  depends_on xcode: ["16.0", :build]
 
   def install
-    system "swift", "build", "--configuration", "release", "--disable-sandbox"
+    system "swift", "build", "--configuration", "release", "--disable-sandbox",
+           "-Xcc", "-fno-modules"
 
     system "install", "-d", "#{prefix}/bin"
     system "cp", ".build/release/xcodes", "#{prefix}/bin/xcodes"
