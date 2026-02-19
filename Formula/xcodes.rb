@@ -10,10 +10,10 @@ class Xcodes < Formula
 
   def install
     system "swift", "build", "--configuration", "release", "--disable-sandbox",
-           "-Xcc", "-fno-modules"
+           "-Xswiftc", "-Onone", "--arch", "arm64", "--arch", "x86_64"
 
     system "install", "-d", "#{prefix}/bin"
-    system "cp", ".build/release/xcodes", "#{prefix}/bin/xcodes"
+    system "cp", ".build/apple/Products/Release/xcodes", "#{prefix}/bin/xcodes"
   end
 
   test do
