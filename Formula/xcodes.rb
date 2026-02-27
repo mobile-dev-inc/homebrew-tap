@@ -1,9 +1,9 @@
 class Xcodes < Formula
   desc "The best command-line tool to install and switch between multiple versions of Xcode"
   homepage "https://github.com/mobile-dev-inc/xcodes"
-  url "https://github.com/mobile-dev-inc/xcodes/archive/5ce5aa622aa2b7ebcdc367320eeab80543fd2a55.tar.gz"
+  url "https://github.com/mobile-dev-inc/xcodes/archive/4ad7c1327ed9c9493b054c7ad5e4e40e2807bbce.tar.gz"
   version "2026.02.27"
-  sha256 "12507f4831815624f79eaf6a6a709467f9029a3276e6da896c0b33597e9d6545"
+  sha256 "dde5968ab44f3d7f5fc20ff92d1aa7c9be0d2b4f41bada4d5013da8a048f4927"
   license "MIT"
 
   depends_on xcode: ["16.0", :build]
