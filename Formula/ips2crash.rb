@@ -1,5 +1,5 @@
 class Ips2crash < Formula
-  desc "ips2crash is a macOS command line too to convert a .ips file to a legacy .crash log file."
+  desc "ips2crash is a macOS command line tool to convert a .ips file to a legacy .crash log file."
   homepage "https://github.com/packagesdev/ips2crash"
   # url "https://github.com/packagesdev/ips2crash" no releases have been made, use --HEAD
   head "https://github.com/packagesdev/ips2crash.git", branch: "master"
